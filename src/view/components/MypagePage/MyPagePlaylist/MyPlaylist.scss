@@ -1,0 +1,44 @@
+.MyPlaylist {
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;    
+
+  .MyPlaylist-title {
+    font-size: 15px;
+    margin-left: -20px;
+  }
+
+  .My-playlist {
+    height: 580px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .playlist1 {
+      width: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .playlist2 {
+      width: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .playlist3 {
+      width: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+}

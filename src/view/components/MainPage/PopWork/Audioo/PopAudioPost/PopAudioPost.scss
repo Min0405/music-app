@@ -1,0 +1,170 @@
+.PopAudioPost {
+
+  .audio-post {
+    text-align: center;
+   
+    .post {
+      .frame {
+        float: left;
+        width: 290px;
+        height: 230px;
+        border-radius: 20px;
+        box-shadow: 0px 0.3px 5px 0.5px rgb(211, 211, 211);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .audio {
+          margin-right: 50px;
+
+          .audiobar {
+            // float: left;
+            // position: relative;
+            margin-top: 5px;
+            width: 100px;
+            height: 100px;
+            margin-right: -50px;
+          }
+        }
+
+      .userName{
+        margin-left: 170px;
+        margin-top: 5px;
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        float: right;
+      }        
+
+        h1 {
+          color: black;
+          text-decoration: none;
+          font-size: 12px;
+          float: right;
+          margin-right: 30px;
+          margin-top: 5px;
+        }
+
+        .bar {
+          width: 230px;
+          height: 30px;
+          box-shadow: 0px 0.3px 3px 0.5px rgb(211, 211, 211);
+          border-radius: 50px;
+          // margin-left: 30px;
+          margin-top: 15px;
+
+          .playbtn {
+            cursor: pointer;
+            margin-top: 2px;
+            width: 25px;
+            height: 25px;
+          }
+
+          .rewind {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            margin-right: 40px;
+          }
+
+          .forward {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            margin-left: 40px;
+          }
+        }
+
+        .cont {
+          width: 230px;
+          height: 25px;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          // background-color: aquamarine;
+
+        .heart {
+            width: 80px;
+            height: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        
+            .heart-icon {
+              cursor: pointer;
+              width: 20px;
+              height: 20px;
+              color: red;
+              float: left;
+            }
+        
+            .heart-count {
+              width: 20px;
+              height: 20px;
+              // color: red;
+              font-size: 12px;
+              float: left;
+            }
+          }
+        
+          .comment {
+            width: 80px;
+            height: 25px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        
+            .com-icon {
+              cursor: pointer;
+              width: 20px;
+              height: 20px;
+              // margin-left: 0px;
+              float: left;
+            }
+        
+            .com-count {
+              width: 20px;
+              height: 20px;
+              margin-left: 10px;
+              float: left;
+            }
+          }
+        
+          .etc-icon {
+            width: 70px;
+            height: 25px;
+            display: flex;
+            margin-bottom: 5px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        
+            .share-icon {
+              cursor: pointer;
+              width: 20px;
+              height: 20px;
+              margin-right: 5px;
+              margin-top: 2px;
+              float: right;
+            }
+        
+            .add-icon {
+              cursor: pointer;
+              width: 20px;
+              height: 20px;
+              margin-right: 15px;
+              margin-top: 2px;
+              float: right;
+            } 
+          }
+        }
+      }
+    }
+
+
+  }
+}

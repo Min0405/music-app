@@ -1,0 +1,32 @@
+.PlaylistMusic {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .Music-album {
+    width: 160px;
+    height: 160px;
+    background-color: black;
+  }
+
+  .list-text {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .Music-name {
+      display: inline-block;
+      color: black;
+      font-size: 15px;
+    }
+
+    .Music-day {
+      display: inline-block;
+      color: black;
+      font-size: 14px;
+    }
+  }
+}

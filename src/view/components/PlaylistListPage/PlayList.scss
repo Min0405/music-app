@@ -1,0 +1,26 @@
+.PlayList {
+  height: 1750px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+
+  .Playlist-list-content {
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    .PlayList-header {
+      width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+
+  } 
+}

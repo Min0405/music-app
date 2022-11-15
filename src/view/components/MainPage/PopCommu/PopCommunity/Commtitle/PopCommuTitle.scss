@@ -1,0 +1,45 @@
+.PopCommuTitle {
+
+
+  .content {
+  width: 1325px;
+  // height:60px;
+  // display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .link {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .title {
+      list-style: none;
+      color: black;
+      cursor: pointer;
+      font-size: 15px;
+      // margin-left: 320px;
+      // margin-right: 1300px;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+
+  .more {
+    button {
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      // text-decoration: none;
+      height: 0px;
+      font-size: 14px;
+      float: right;
+      margin-right: 15px;
+      margin-top: -25px;
+    }
+   }
+
+  }
+
+
+  }

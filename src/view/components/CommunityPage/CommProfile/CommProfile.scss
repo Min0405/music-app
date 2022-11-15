@@ -1,0 +1,165 @@
+.commprofile {
+  // padding-top: 70px;
+  // margin-left: 420px;
+
+  .frame {
+    margin-bottom: 80px;
+    width: 320px;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // align-items: center;
+
+    .inform{
+
+// top information 
+      .usericon {
+        color: black;
+        margin-left: 10px;
+        margin-top: 10px;
+        float: left;
+        width: 70px;
+        height: 70px;
+      }
+
+      .namee {
+        padding-top: 25px;
+
+        .name {
+          font-size: 15px;
+          margin-left: 10px;
+          float: left;
+        }
+        
+        .nametext {
+          font-size: 15px;
+          font-size: 13px;
+          margin-left: 15px;
+          float: left;
+          text-decoration: underline;
+          text-underline-offset: 3px;
+        }
+      }  
+    
+    .emaill {
+      margin-top: 3px;
+
+      .email {
+        font-size: 15px;
+        padding-left: 10px;
+        float: left;
+      }
+
+        .emailtext {
+          font-size: 15px;
+          margin-left: 15px;
+          float: left;
+          text-decoration: underline;
+          text-underline-offset: 3px;
+        }
+    }
+
+//follow
+    .follow {
+      
+      .following {
+        font-size: 15px;
+        margin-top: 50px;
+
+        .lowing-icon {
+          float: left;
+          margin-left: 20px;
+        }
+
+        .lowing {
+          font-size: 15px;
+          float: left;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
+        .lowing-number {
+          font-size: 15px;
+        }
+
+      }
+
+      .follower {
+        font-size: 15px;
+        margin-top: 10px;
+
+        .lower-icon {
+          float: left;
+          margin-left: 20px;
+        }
+
+        .lower {
+          font-size: 15px;
+          float: left;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+
+        .lower-number {
+          font-size: 15px;
+        }
+      }
+    }
+
+  }   
+
+      .Mylist {
+        // width:180px;
+        display: flex;
+        // flex-direction: row;
+        // align-items: center;        
+
+//playlist
+        .playlists {
+          width:180px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .list-title {
+            font-size: 15px;
+            margin: 5px;
+          }
+
+          .list {
+
+            li {
+              margin: 5px;
+            }
+          }
+        }    
+
+//work
+        .works {
+          width:180px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .list-title2 {
+            font-size: 15px;
+            margin: 5px;
+          }
+
+          .list2 {
+
+            li {
+              margin: 5px;
+            }
+          }
+        }   
+       
+      }
+    
+
+  }
+
+}

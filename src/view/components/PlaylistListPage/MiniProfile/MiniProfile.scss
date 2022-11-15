@@ -1,0 +1,107 @@
+$shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+
+.MiniProfile {
+  width:250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: $shadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+
+  .Mini-Profile {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+
+    .mini-header {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .mini-top {
+        width: 190px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .mini-username {
+          font-size: 15px;
+        }
+        .List-add-user {
+          width: 25px;
+          height: 25px;
+        }
+      }
+
+      .mini-follow {
+
+        .mini-following {
+          width: 140px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+
+          .mini-lowing-icon {
+            width: 25px;
+            height: 25px;
+          }
+
+          .mini-lowing {
+            font-size: 14px;
+          }
+          
+          .mini-lowing-number {
+            font-size: 14px;
+          }
+        }
+
+        .mini-follower {
+          width: 140px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+
+          .mini-lower-icon {
+            width: 25px;
+            height: 25px;
+          }
+          
+          .mini-lower {
+            font-size: 14px;
+          }
+
+          .mini-lower-number {
+            font-size: 14px;
+          }
+        }
+
+      }
+    }
+
+    .Mini-bio {
+      width: 200px;
+      height: 100px;
+      border-radius: 10px;
+      box-shadow: $shadow;    
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;      
+
+      .mini-bio-text {
+        width: 200px;
+        text-align: center;
+        font-size: 13px;
+        color: rgb(129, 129, 129);
+      }
+    }
+
+  }
+}

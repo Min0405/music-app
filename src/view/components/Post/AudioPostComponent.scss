@@ -1,0 +1,228 @@
+.AudioPostComponent {
+
+  .WorkAudio-contents {
+
+    .WorkAudio-cont {
+      // margin-left: 770px;
+      // margin-top: 35px;
+      width: 700px;
+      height: 320px;
+      border-radius: 10px;
+      box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+
+      .WorkAudio-frame {
+        width: 700px;
+        height: 300px;
+        // border-radius: 10px;
+        // box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        //profile        
+        .WorkAudio-user {
+          margin-right: 550px;
+
+          .WorkAudio-profile {
+            width: 25px;
+            height: 25px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 25px;
+          }
+
+          .WorkAudio-username {
+            font-size: 15px;
+            padding-top: 23px;
+            padding-left: 60px;
+          }
+        }
+
+        //post
+        .WorkAudio-post {
+          width: 600px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          // align-items: center;           
+
+
+          .Audio-Album-img {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            // float: left;
+            // margin-top: 20px;
+          }
+
+          .WorkAudio-Right {
+            display: flex;
+            height: 240px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .WorkAudio-seekbar {
+              
+              .sound-bar {
+                width: 150px;
+                height: 150px;
+              }
+              .sound-bar2 {
+
+                width: 150px;
+                height: 150px;
+                margin-left: -30px;
+              }              
+            }
+
+            .WorkAudio-bar {
+              width: 350px;
+              height: 30px;
+              flex-direction: column;
+              display: flex;
+              align-items: center;
+              box-shadow: 0px 0.3px 3px 0.5px rgb(211, 211, 211);
+              border-radius: 50px;
+              // margin-top: 15px;
+
+              .play-bar-contents {
+                width: 200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .WorkAudio-playbtn {
+                  cursor: pointer;
+                  margin-top: 2px;
+                  width: 25px;
+                  height: 25px;
+                }
+
+                .WorkAudio-rewind {
+                  cursor: pointer;
+                  width: 25px;
+                  height: 25px;
+                  // margin-right: 40px;
+                }
+
+                .WorkAudio-forward {
+                  cursor: pointer;
+                  width: 25px;
+                  height: 25px;
+                  // margin-left: 40px;
+                }
+              }
+            }
+
+            // icon
+            .WorkAudio-icons {
+              width: 250px;
+              height: 35px;
+              // margin-top: 20px;
+              display: flex;
+              // flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+
+              .WorkAudio-heart {
+                width: 30px;
+                height: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                // .WorkAudio-heart-icon {
+                //   cursor: pointer;
+                //   width: 20px;
+                //   height: 20px;
+                //   color: red;
+                //   float: left;
+                // }
+
+                // .WorkAudio-heart-count {
+                //   width: 20px;
+                //   height: 20px;
+                //   // color: red;
+                //   font-size: 12px;
+                //   float: left;
+                // }
+              }
+
+              .WorkAudio-comment {
+                width: 45px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .WorkAudio-com-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-left: 30px;
+                  // margin-top: 5px;
+                  float: left;
+                }
+
+                .WorkAudio-com-count {
+                  width: 20px;
+                  height: 20px;
+                  // margin-left: 5px;
+                  margin-top: 5px;
+                  float: left;
+                  font-size: 12px;
+                }
+              }
+
+              .WorkAudio-etc-icon {
+                width: 90px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .WorkAudio-share-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }
+
+                .WorkAudio-add-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }
+
+                .WorkAudio-comment-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }
+
+              }
+            }
+
+          }
+
+        }
+      }
+    }
+
+
+  }
+}

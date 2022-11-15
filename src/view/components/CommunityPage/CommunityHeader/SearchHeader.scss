@@ -1,0 +1,24 @@
+.SearchHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .categorie {
+      display: flex;
+      width: 580px;
+      flex-direction: row;
+      justify-content: space-between;
+    } 
+
+    .categorie2 {
+      display: flex;
+      width: 480px;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: -20px;
+    } 
+     
+  
+}

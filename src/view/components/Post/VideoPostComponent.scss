@@ -1,0 +1,222 @@
+.VideoPostComponent {
+
+  .Work-contents {
+
+    .Work-cont {
+      // margin-left: 770px;
+      // margin-top: 35px;
+      width: 700px;
+      height: 380px;
+      border-radius: 10px;
+      box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);      
+
+      .Work-frame {
+        width: 700px;
+        height: 350px;
+        // border-radius: 10px;
+        // box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;         
+
+        //profile        
+        .Work-user {
+          margin-right: 550px;
+
+          .Work-profile {
+            width: 25px;
+            height: 25px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 25px;
+          }
+
+          .Work-username {
+            font-size: 15px;
+            padding-top: 23px;
+            padding-left: 60px;
+          }
+        }
+
+        //post
+        .Work-post {
+          width: 600px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          // align-items: center;           
+
+
+          .Album-img {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            // float: left;
+            // margin-top: 20px;
+          }
+
+          .Work-Right {
+            display: flex;
+            height: 290px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;             
+
+            .Work-img {
+              width: 350px;
+              height: 200px;
+
+              box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+            }
+
+            .Work-bar {
+              width: 350px;
+              height: 30px;              
+              flex-direction: column;
+              display: flex;
+              align-items: center;
+              box-shadow: 0px 0.3px 3px 0.5px rgb(211, 211, 211);
+              border-radius: 50px;
+              // margin-top: 15px;
+        
+              .bar-contents {
+                width: 200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center; 
+
+                .playbtn {
+                  cursor: pointer;
+                  margin-top: 2px;
+                  width: 25px;
+                  height: 25px;
+                }
+          
+                .rewind {
+                  cursor: pointer;
+                  width: 25px;
+                  height: 25px;
+                  // margin-right: 40px;
+                }
+          
+                .forward {
+                  cursor: pointer;
+                  width: 25px;
+                  height: 25px;
+                  // margin-left: 40px;
+                }
+             }
+            }
+
+            // icon
+            .Work-icons {
+              width: 250px;
+              height: 25px;
+              // margin-top: 20px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center; 
+              
+              .Work-heart {
+                width: 30px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                // .Work-heart-icon {
+                //   cursor: pointer;
+                //   width: 20px;
+                //   height: 20px;
+                //   color: red;
+                //   float: left;
+                // }
+
+              //   .Work-heart-count {
+              //   width: 20px;
+              //   height: 20px;
+              //   // color: red;
+              //   font-size: 12px;
+              //   float: left;
+              //   }
+              }
+
+              .Work-comment {
+                width: 45px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                // margin-right: 20px;
+
+                .Work-com-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-left: 30px;
+                  // margin-top: 5px;
+                  float: left;
+                }
+
+                .Work-com-count {
+                  width: 20px;
+                  height: 20px;
+                  // margin-left: 5px;
+                  margin-top: 5px;
+                  float: left;
+                  font-size: 12px;
+                }
+              }
+
+              .Work-etc-icon {
+                width: 90px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;                
+
+                .Work-share-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }
+
+                .Work-add-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }     
+                
+                .Work-comment-icon {
+                  cursor: pointer;
+                  width: 20px;
+                  height: 20px;
+                  // margin-right: 40px;
+                  // margin-top: 5px;
+                  float: right;
+                }   
+
+            }
+          }
+
+        }
+
+        }
+      }
+    }
+
+
+  }
+}

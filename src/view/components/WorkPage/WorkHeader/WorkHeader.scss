@@ -1,0 +1,28 @@
+.WorkHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .work-search {
+      width: 580px;
+    }
+
+    .WorkCategorie {
+      display: flex;
+      width: 580px;
+      flex-direction: row;
+      justify-content: space-between;
+    } 
+
+    .WorkCategorie2 {
+      display: flex;
+      width: 480px;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: -20px;
+    } 
+     
+  
+}

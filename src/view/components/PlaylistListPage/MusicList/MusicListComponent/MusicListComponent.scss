@@ -1,0 +1,19 @@
+.MusicListComponent {
+  
+  .MusicListComponent-list {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .list-count {
+      font-size: 16px;
+    }
+
+    // .PlaylistMusic-component {
+
+    // }
+
+  }
+}

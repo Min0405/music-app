@@ -1,0 +1,25 @@
+.icons-list {
+  align-items: center;
+  display: flex;  
+  
+  .heart-fill {
+    color: red;
+    width: 20px;
+    height: 20px;
+    // margin-left: 30px;
+    // margin-top: 5px;
+    float: left;
+  }
+
+  .heart-outline {
+    width: 20px;
+    height: 20px;
+  }
+
+  .heart-count {
+    font-size: 12px;
+    // display: flex;
+    margin-left: 5px;
+    float: left;
+  }
+}

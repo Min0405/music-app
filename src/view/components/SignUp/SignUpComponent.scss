@@ -1,0 +1,113 @@
+.SignUpComponent {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .SignUp-Component{
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .SignUp-logo {
+      font-size: 40px;
+    }
+
+    .SignUp-frame {
+      width: 400px;
+      height: 470px;
+      border-radius: 20px;
+      box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;  
+      
+
+      .SignUp-list {
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
+
+        .SignUp-email {
+
+          .email {
+            font-size: 14px;
+          }
+          .email-form {
+            padding-left: 10px;
+            width: 300px;
+            height: 35px;
+            border: 1px solid rgb(225, 225, 225);
+          }
+
+        }
+
+        .SignUp-id {
+
+          .id {
+            font-size: 14px;
+          }
+
+          .id-form {
+            padding-left: 10px;
+            width: 300px;
+            height: 35px;
+            border: 1px solid rgb(225, 225, 225);
+          }
+        }
+
+        .SignUp-passwd {
+
+          .passwd {
+            font-size: 14px;
+          }
+
+          .passwd-form {
+            padding-left: 10px;
+            width: 300px;
+            height: 35px;
+            border: 1px solid rgb(225, 225, 225);
+          }
+        }
+
+        .SignUp-passwd-check {
+
+          .passwd-check {
+            font-size: 14px;
+          }
+
+          .passwd-check-form {
+            padding-left: 10px;
+            width: 300px;
+            height: 35px;
+            border: 1px solid rgb(225, 225, 225);
+          }
+        }
+      }
+
+      .SignUp-btn {
+        margin-bottom: 30px;
+        width: 300px;
+        height: 30px;
+        border: none;
+        background-color: black;
+        border-radius: 50px;
+
+        .SignUp-btn-text {
+          color: white;
+          font-size: 15px;
+        }
+      }
+
+    }
+
+  }
+}

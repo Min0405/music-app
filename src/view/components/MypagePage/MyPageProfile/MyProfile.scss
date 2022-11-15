@@ -1,0 +1,164 @@
+.MyProfile {
+  width: 850px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 70px;
+  box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+
+  .My-frame {
+    // width: 700px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .My-contents {
+      width: 700px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;      
+
+      .My-icon {
+        margin-left: 50px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        float: left;
+      }
+
+      .My-information {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // align-items: center;      
+
+        .My-inform {
+          display: flex;
+          // align-items: center;
+          width: 400px;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          // height: 250px;
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: space-between;
+          // align-items: center;  
+
+          .My-icon {
+            width: 60px;
+            height: 60px;
+            // float: left;
+            display: flex;
+          }
+
+          .user-inform {
+
+            .My-namee {
+              width: 150px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              .My-name {
+                font-size: 14px;
+              }
+
+              .My-nametext {
+                font-size: 14px;
+              }
+            }
+
+            .My-emaill {
+              align-items: center;
+              width: 210px;
+              display: flex;
+              justify-content: space-between;
+              
+              .My-email {
+                font-size: 14px;
+              }
+
+              .My-emailtext {
+                font-size: 14px;
+              }
+            }
+          }
+
+          .My-follow {
+            
+            .My-following {
+              width: 130px;
+              display: flex;
+              justify-content: space-between;  
+              align-items: center;
+
+              .My-lowing-icon {
+                width: 25px;
+                height: 25px;
+              }
+
+              .My-lowing {
+                font-size: 14px;
+              }
+
+              .My-lowing-number {
+                font-size: 14px;
+              }
+            }
+
+            .My-follower {
+
+              width: 130px;
+              display: flex;
+              justify-content: space-between;  
+              align-items: center;
+
+              .My-lower-icon {
+                width: 25px;
+                height: 25px;
+              }
+
+              .My-lower {
+                font-size: 14px;
+              }
+
+              .My-lower-number {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .Bio {
+
+          .Bio-title {
+            font-size: 15px;
+          }
+
+          .Bio-textbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;            
+            width: 500px;
+            height: 150px;
+            border-radius: 20px;
+            box-shadow: 0px 0.5px 2px 0.5px rgb(211, 211, 211);
+          }
+
+          .Bio-text {
+            color: rgb(158, 158, 158);
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+  }
+}

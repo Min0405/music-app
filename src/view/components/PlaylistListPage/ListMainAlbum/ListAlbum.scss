@@ -1,0 +1,39 @@
+.ListAlbum {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .List-Album {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+  }
+
+  .ListAlbum-contents {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .List-Text {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .List-username {
+        font-size: 14px;
+      }
+
+      .List-title {
+        font-size: 16px;
+      }
+    }
+
+    .List-add-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
